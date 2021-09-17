@@ -1,7 +1,7 @@
 {
-  "name": "redux-localstorage-simple",
-  "version": "2.4.1",
-  "description": "Save and load Redux state to and from LocalStorage.",
+  "name": "redux-sessionstorage-simple",
+  "version": "1.0.0",
+  "description": "Save and load Redux state to and from SessionStorage.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -12,24 +12,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kilkelly/redux-localstorage-simple.git"
+    "url": "git+https://github.com/moiri/redux-sessionstorage-simple.git"
   },
   "keywords": [
     "redux",
-    "localstorage",
+    "sessionstorage",
     "immutablejs"
   ],
   "author": "Frank Kilkelly",
+  "contributors": "Simon Maurer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kilkelly/redux-localstorage-simple/issues"
+    "url": "https://github.com/moiri/redux-sessionstorage-simple/issues"
   },
-  "homepage": "https://github.com/kilkelly/redux-localstorage-simple#readme",
+  "homepage": "https://github.com/moiri/redux-sessionstorage-simple#readme",
   "dependencies": {
     "merge": "2.1.1"
   },
   "devDependencies": {
-    "@babel/cli": "7.10.5",
+    "@babel/cli": "^7.15.4",
     "@babel/core": "7.10.5",
     "@babel/preset-env": "7.10.4",
     "babel-loader": "8.1.0",
@@ -39,5 +40,8 @@
     "rimraf": "3.0.2",
     "webpack": "^4.44.0",
     "webpack-cli": "3.3.12"
+  },
+  "directories": {
+    "test": "test"
   }
 }
