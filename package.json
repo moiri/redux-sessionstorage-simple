@@ -16,8 +16,7 @@
   },
   "keywords": [
     "redux",
-    "sessionstorage",
-    "immutablejs"
+    "sessionstorage"
   ],
   "author": "Frank Kilkelly",
   "contributors": "Simon Maurer",

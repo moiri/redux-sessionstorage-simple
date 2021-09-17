@@ -301,12 +301,6 @@ You must also have:
 
 To run tests for this package open the file 'test/test.html' in your browser. Because this package uses SessionStorage we therefore need to test it in an environment which supports it i.e. modern browsers.
 
-## Removal of support for Immutable.js data structures
-
-Support for Immutable.js data structures has been removed as of version 1.4.0. If you require this functionality please install version 1.4.0 using the following command:
-
-`npm install --save redux-sessionstorage-simple@1.4.0`
-
 ## Feedback
 
 Pull requests and opened issues are welcome!
